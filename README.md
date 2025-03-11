@@ -2,22 +2,33 @@
 
 ## Description:
 
-
+Todos(Quests) einsammeln um Punkte zu erlangen.
+Diese Punkte sind einsetzbar in einem kleinem Spiel dazu. 
+Es sollen Tägliche sich wiederholende Quests geben (z.B generisch zimmer aufräumen)
+und auch selber gesetzte Quests.
+Vergleichen von Punkten mit Freunden -> sozial system 
 ## Technology:
     - Typescript + HTML + CSS
     - SQL based DB
     - SVG for scalable UI
 
 ## TODOs:
+
 ### UI/UX:
-    - HTML + CSS
+    - Login screen + create Account 
+    - Tutorial/ Erklärung 
+    - Game screen 
+    - Friendscreen 
+    - Quest liste
+    - 
     - Medieval Quest Theme
+    
 ### Backend:
     - User
         - Login
         - Friends + Leaderboard
     - DB
-        - SQL
+        - in SQL
         - Users
         - Available Tasks
 ### Scoring:
@@ -31,8 +42,16 @@
 ### Tasks:
     - General Tasks with fixed Points
     - Custom Tasks
-
+### Social system 
+    - Compare Points with Friends , Leaderboard 
+    - See game state of Friends 
+    - (messaging )
+## Ideen:
+    - Zweite Währung(durch streaks erzeugt) für Kosmetiks z.b Profilbilder   
+    -
 ## Concept-Art:
+
+
 
 ## Contributors:
 [FB100](https://github.com/FB100)

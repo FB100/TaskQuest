@@ -1,0 +1,31 @@
+
+Table User {
+  user_id integer [primary key]
+  Username string [not null,unique]
+  passwordhash long
+  friendlistDATENTYPÄNDERN string
+  Questlist string
+  score integer
+  balance_account integer
+  emailaddress string
+  created_at timestamp
+}
+
+Table Quests {
+quest_id integer [primary key]
+name string
+description string
+generic bool
+reward integer
+repeatamountPerRefreashtime integer
+cooldown_refreashtime time
+}
+Table Game {
+  game_id integer [primary key]
+}
+
+
+
+// SQL anschauen und dann geeingnet Datentypen
+// ändern bei Tabelle Quests mit repeatamountPerRefreashtime integer
+// cooldown_refreashtime time und bei User mit Friend & Questlist

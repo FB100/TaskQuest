@@ -1,0 +1,35 @@
+body {
+    margin: 0em;
+
+}
+header {
+    background-color: red;
+    display: flex;
+    height: 3.5em;
+    justify-content: center;
+
+}
+#burgerButton{
+}
+
+#taskQuestLogo {
+    width: 50%;
+    background-color: aquamarine;
+}
+#accountHeaderDiv {
+    justify-content: right;
+}
+.headerDivs {
+    display: flex;
+    width: 25%;
+}
+
+#accountButton{
+}
+
+#loginForm {
+    display: none;
+}
+#registerForm {
+    display: flex;
+}

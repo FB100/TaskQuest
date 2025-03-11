@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TaskQuest</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="typescript.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="headerDivs" > <button id="burgerButton">burgerButton</button> </div>
+    <div id="taskQuestLogo">TaskQuest Logo</div>
+    <div class="headerDivs" id="accountHeaderDiv"> <button id="accountButton"> Login / Account </button></div>
+</header>
+<div id="loginPage">
+    <div id="loginForm">
+        <form  action="#insertDBLocation" method="post">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">submit</button>
+        </form>
+        <button onclick="displayRegister()"> register instead </button>
+    </div>
+    <div id="registerForm" >
+        <form  action="#insertotherDBLocation" method="post">
+            <label for="mail"> <b>Mail</b></label>
+            <input type="text" placeholder="Enter Mail" name="mail" required>
+
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">submit</button>
+        </form>
+        <button onclick="displayLogin()"> login instead </button>
+    </div>
+    <!-- hier auch registerbutton -->
+
+</div>
+<div id="friendList"></div>
+<div id="questList"></div>
+</body>
+</html>
